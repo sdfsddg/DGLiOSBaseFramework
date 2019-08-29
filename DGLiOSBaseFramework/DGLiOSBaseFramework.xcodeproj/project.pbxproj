@@ -7,17 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D8DBDE9385835D014007096 /* Pods_DGLiOSBaseFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA179917B3FBA6E84652296 /* Pods_DGLiOSBaseFramework.framework */; };
 		839C31BA2316936C0079027E /* DGLiOSBaseFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C31B82316936C0079027E /* DGLiOSBaseFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		839C31C32316971A0079027E /* DGLHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C31C1231697190079027E /* DGLHttpRequest.h */; };
-		839C31C42316971A0079027E /* DGLHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C31C2231697190079027E /* DGLHttpRequest.m */; };
+		839C31D723177C2C0079027E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839C31D623177C2C0079027E /* UIKit.framework */; };
+		839C31DA23177CAB0079027E /* HTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C31D823177CAB0079027E /* HTTPRequest.h */; };
+		839C31DB23177CAB0079027E /* HTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C31D923177CAB0079027E /* HTTPRequest.m */; };
+		839C31E023177CCC0079027E /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C31DE23177CCC0079027E /* BaseModel.h */; };
+		839C31E123177CCC0079027E /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C31DF23177CCC0079027E /* BaseModel.m */; };
+		839C31E423177CE70079027E /* BaseController.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C31E223177CE70079027E /* BaseController.h */; };
+		839C31E523177CE70079027E /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C31E323177CE70079027E /* BaseController.m */; };
+		839C31E823177D090079027E /* BaseNavcController.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C31E623177D090079027E /* BaseNavcController.h */; };
+		839C31E923177D090079027E /* BaseNavcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C31E723177D090079027E /* BaseNavcController.m */; };
+		839C31EC23177D2F0079027E /* BaseTabbarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C31EA23177D2F0079027E /* BaseTabbarController.h */; };
+		839C31ED23177D2F0079027E /* BaseTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C31EB23177D2F0079027E /* BaseTabbarController.m */; };
+		839C31F123177E9F0079027E /* RequestModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C31EF23177E9F0079027E /* RequestModel.h */; };
+		839C31F223177E9F0079027E /* RequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C31F023177E9F0079027E /* RequestModel.m */; };
+		839C31F523177EAC0079027E /* ResponseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C31F323177EAC0079027E /* ResponseModel.h */; };
+		839C31F623177EAC0079027E /* ResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C31F423177EAC0079027E /* ResponseModel.m */; };
+		839C31F9231794470079027E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C31F7231794470079027E /* Reachability.m */; };
+		839C31FA231794470079027E /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C31F8231794470079027E /* Reachability.h */; };
+		839C3204231798F80079027E /* NSString+Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C3202231798F80079027E /* NSString+Base.h */; };
+		839C3205231798F80079027E /* NSString+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C3203231798F80079027E /* NSString+Base.m */; };
+		839C32092317A9370079027E /* Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C32072317A9370079027E /* Device.h */; };
+		839C320A2317A9370079027E /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C32082317A9370079027E /* Device.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FA179917B3FBA6E84652296 /* Pods_DGLiOSBaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGLiOSBaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FF4614B877C43EE3E84F74 /* Pods-DGLiOSBaseFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGLiOSBaseFramework.release.xcconfig"; path = "Target Support Files/Pods-DGLiOSBaseFramework/Pods-DGLiOSBaseFramework.release.xcconfig"; sourceTree = "<group>"; };
+		7173FF57620F0DB914287CF9 /* Pods-DGLiOSBaseFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGLiOSBaseFramework.debug.xcconfig"; path = "Target Support Files/Pods-DGLiOSBaseFramework/Pods-DGLiOSBaseFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		839C31B52316936C0079027E /* DGLiOSBaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGLiOSBaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		839C31B82316936C0079027E /* DGLiOSBaseFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGLiOSBaseFramework.h; sourceTree = "<group>"; };
 		839C31B92316936C0079027E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		839C31C1231697190079027E /* DGLHttpRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGLHttpRequest.h; sourceTree = "<group>"; };
-		839C31C2231697190079027E /* DGLHttpRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGLHttpRequest.m; sourceTree = "<group>"; };
+		839C31D623177C2C0079027E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		839C31D823177CAB0079027E /* HTTPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPRequest.h; sourceTree = "<group>"; };
+		839C31D923177CAB0079027E /* HTTPRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTPRequest.m; sourceTree = "<group>"; };
+		839C31DE23177CCC0079027E /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		839C31DF23177CCC0079027E /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		839C31E223177CE70079027E /* BaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		839C31E323177CE70079027E /* BaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		839C31E623177D090079027E /* BaseNavcController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavcController.h; sourceTree = "<group>"; };
+		839C31E723177D090079027E /* BaseNavcController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavcController.m; sourceTree = "<group>"; };
+		839C31EA23177D2F0079027E /* BaseTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabbarController.h; sourceTree = "<group>"; };
+		839C31EB23177D2F0079027E /* BaseTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabbarController.m; sourceTree = "<group>"; };
+		839C31EE23177D8A0079027E /* Configuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		839C31EF23177E9F0079027E /* RequestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestModel.h; sourceTree = "<group>"; };
+		839C31F023177E9F0079027E /* RequestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestModel.m; sourceTree = "<group>"; };
+		839C31F323177EAC0079027E /* ResponseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseModel.h; sourceTree = "<group>"; };
+		839C31F423177EAC0079027E /* ResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseModel.m; sourceTree = "<group>"; };
+		839C31F7231794470079027E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		839C31F8231794470079027E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		839C3202231798F80079027E /* NSString+Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Base.h"; sourceTree = "<group>"; };
+		839C3203231798F80079027E /* NSString+Base.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base.m"; sourceTree = "<group>"; };
+		839C320623179CFF0079027E /* HTTPRequestDefinedHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPRequestDefinedHeader.h; sourceTree = "<group>"; };
+		839C32072317A9370079027E /* Device.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		839C32082317A9370079027E /* Device.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,17 +69,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839C31D723177C2C0079027E /* UIKit.framework in Frameworks */,
+				7D8DBDE9385835D014007096 /* Pods_DGLiOSBaseFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1342A70B88A6C223FCBAC2EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				839C31D623177C2C0079027E /* UIKit.framework */,
+				3FA179917B3FBA6E84652296 /* Pods_DGLiOSBaseFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		839C31AB2316936C0079027E = {
 			isa = PBXGroup;
 			children = (
 				839C31B72316936C0079027E /* DGLiOSBaseFramework */,
 				839C31B62316936C0079027E /* Products */,
+				C000E5CB58E1993721E23B2E /* Pods */,
+				1342A70B88A6C223FCBAC2EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,7 +107,11 @@
 		839C31B72316936C0079027E /* DGLiOSBaseFramework */ = {
 			isa = PBXGroup;
 			children = (
-				839C31C0231696E30079027E /* HTTPRequest */,
+				839C31FB231798840079027E /* Category */,
+				839C31D223177BDD0079027E /* Base */,
+				839C31D323177BDD0079027E /* Config */,
+				839C31D523177BDE0079027E /* Core */,
+				839C31D423177BDD0079027E /* Tool */,
 				839C31B82316936C0079027E /* DGLiOSBaseFramework.h */,
 				839C31B92316936C0079027E /* Info.plist */,
 			);
@@ -60,10 +121,123 @@
 		839C31C0231696E30079027E /* HTTPRequest */ = {
 			isa = PBXGroup;
 			children = (
-				839C31C1231697190079027E /* DGLHttpRequest.h */,
-				839C31C2231697190079027E /* DGLHttpRequest.m */,
+				839C31F8231794470079027E /* Reachability.h */,
+				839C31F7231794470079027E /* Reachability.m */,
+				839C31D023177B2E0079027E /* RequestModel */,
+				839C31D123177B2E0079027E /* ResponseModel */,
+				839C31D823177CAB0079027E /* HTTPRequest.h */,
+				839C31D923177CAB0079027E /* HTTPRequest.m */,
+				839C320623179CFF0079027E /* HTTPRequestDefinedHeader.h */,
 			);
 			path = HTTPRequest;
+			sourceTree = "<group>";
+		};
+		839C31D023177B2E0079027E /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+				839C31EF23177E9F0079027E /* RequestModel.h */,
+				839C31F023177E9F0079027E /* RequestModel.m */,
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		839C31D123177B2E0079027E /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				839C31F323177EAC0079027E /* ResponseModel.h */,
+				839C31F423177EAC0079027E /* ResponseModel.m */,
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		839C31D223177BDD0079027E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				839C31DD23177CBE0079027E /* BaseControl */,
+				839C31DC23177CBE0079027E /* BaseMdeol */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		839C31D323177BDD0079027E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				839C31EE23177D8A0079027E /* Configuration.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		839C31D423177BDD0079027E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				839C3200231798CA0079027E /* Device */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		839C31D523177BDE0079027E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				839C31C0231696E30079027E /* HTTPRequest */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		839C31DC23177CBE0079027E /* BaseMdeol */ = {
+			isa = PBXGroup;
+			children = (
+				839C31DE23177CCC0079027E /* BaseModel.h */,
+				839C31DF23177CCC0079027E /* BaseModel.m */,
+			);
+			path = BaseMdeol;
+			sourceTree = "<group>";
+		};
+		839C31DD23177CBE0079027E /* BaseControl */ = {
+			isa = PBXGroup;
+			children = (
+				839C31E223177CE70079027E /* BaseController.h */,
+				839C31E323177CE70079027E /* BaseController.m */,
+				839C31E623177D090079027E /* BaseNavcController.h */,
+				839C31E723177D090079027E /* BaseNavcController.m */,
+				839C31EA23177D2F0079027E /* BaseTabbarController.h */,
+				839C31EB23177D2F0079027E /* BaseTabbarController.m */,
+			);
+			path = BaseControl;
+			sourceTree = "<group>";
+		};
+		839C31FB231798840079027E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				839C3201231798D90079027E /* NSString */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		839C3200231798CA0079027E /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				839C32072317A9370079027E /* Device.h */,
+				839C32082317A9370079027E /* Device.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		839C3201231798D90079027E /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				839C3202231798F80079027E /* NSString+Base.h */,
+				839C3203231798F80079027E /* NSString+Base.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		C000E5CB58E1993721E23B2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7173FF57620F0DB914287CF9 /* Pods-DGLiOSBaseFramework.debug.xcconfig */,
+				54FF4614B877C43EE3E84F74 /* Pods-DGLiOSBaseFramework.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,7 +247,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839C31C32316971A0079027E /* DGLHttpRequest.h in Headers */,
+				839C31FA231794470079027E /* Reachability.h in Headers */,
+				839C31E023177CCC0079027E /* BaseModel.h in Headers */,
+				839C31E423177CE70079027E /* BaseController.h in Headers */,
+				839C31E823177D090079027E /* BaseNavcController.h in Headers */,
+				839C31EC23177D2F0079027E /* BaseTabbarController.h in Headers */,
+				839C31F123177E9F0079027E /* RequestModel.h in Headers */,
+				839C31F523177EAC0079027E /* ResponseModel.h in Headers */,
+				839C3204231798F80079027E /* NSString+Base.h in Headers */,
+				839C31DA23177CAB0079027E /* HTTPRequest.h in Headers */,
+				839C32092317A9370079027E /* Device.h in Headers */,
 				839C31BA2316936C0079027E /* DGLiOSBaseFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 839C31BD2316936C0079027E /* Build configuration list for PBXNativeTarget "DGLiOSBaseFramework" */;
 			buildPhases = (
+				9BFF157C2908E437D286BF30 /* [CP] Check Pods Manifest.lock */,
 				839C31B02316936C0079027E /* Headers */,
 				839C31B12316936C0079027E /* Sources */,
 				839C31B22316936C0079027E /* Frameworks */,
@@ -140,12 +324,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9BFF157C2908E437D286BF30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DGLiOSBaseFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		839C31B12316936C0079027E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839C31C42316971A0079027E /* DGLHttpRequest.m in Sources */,
+				839C31F623177EAC0079027E /* ResponseModel.m in Sources */,
+				839C31E123177CCC0079027E /* BaseModel.m in Sources */,
+				839C31F9231794470079027E /* Reachability.m in Sources */,
+				839C320A2317A9370079027E /* Device.m in Sources */,
+				839C31F223177E9F0079027E /* RequestModel.m in Sources */,
+				839C3205231798F80079027E /* NSString+Base.m in Sources */,
+				839C31E523177CE70079027E /* BaseController.m in Sources */,
+				839C31ED23177D2F0079027E /* BaseTabbarController.m in Sources */,
+				839C31E923177D090079027E /* BaseNavcController.m in Sources */,
+				839C31DB23177CAB0079027E /* HTTPRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +490,7 @@
 		};
 		839C31BE2316936C0079027E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7173FF57620F0DB914287CF9 /* Pods-DGLiOSBaseFramework.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +515,7 @@
 		};
 		839C31BF2316936C0079027E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54FF4614B877C43EE3E84F74 /* Pods-DGLiOSBaseFramework.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;

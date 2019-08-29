@@ -18,6 +18,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/sdfsddg/DGLiOSBaseFramework.git", :tag => "1.0.0" }
   s.requires_arc = true  
   s.ios.deployment_target = '8.0'
+  s.frameworks = "Foundation", "UIKit", "AdSupport", "AVFoundation"
   s.dependency 'AFNetworking'
+  s.dependency 'IQKeyboardManager'
 
 end
