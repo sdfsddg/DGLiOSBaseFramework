@@ -7,12 +7,33 @@
 //
 
 #import "HTTPRequest.h"
-#import <AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
 #import "Reachability.h"
-#import "NSString+Base.h"
-#import "RequestModel/RequestModel.h"
-#import "ResponseModel/ResponseModel.h"
+#import "RequestModel.h"
+#import "ResponseModel.h"
 #import "HTTPRequestDefinedHeader.h"
+
+@interface NSString (Base)
+
+- (BOOL)deside_Url;
+
+@end
+
+@implementation NSString (Base)
+
+- (BOOL)deside_Url{
+    NSURL * url = [NSURL URLWithString:self];
+    if (url == nil) {
+        return false;
+    }
+    NSString * scheme = url.scheme;
+    NSArray * effectiveScheme = @[@"http",@"https",@"ftp",@"rtsp"];
+    BOOL isUrl = [effectiveScheme containsObject:scheme];
+    return isUrl;
+}
+
+@end
+
 
 
 @interface HTTPRequest(){

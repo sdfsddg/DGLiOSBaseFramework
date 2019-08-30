@@ -31,7 +31,7 @@ static NSString *deviceInfo = nil;
 
 @implementation Device
 
-+ (NSString *)sjGetDeviceId {
++ (NSString *)getDeviceId {
     if (currentDeviceUUIDStr == nil) {
 //        currentDeviceUUIDStr = [YYKeychain getPasswordForService:passwordService account:uuid];
 //        if (currentDeviceUUIDStr == nil || [currentDeviceUUIDStr isEqualToString:@""])
@@ -48,7 +48,7 @@ static NSString *deviceInfo = nil;
 
 
 
-+ (NSString *)getDeviceInfo {
++ (NSString *)private_getDeviceInfo {
     
     struct utsname systemInfo;
     
@@ -140,21 +140,21 @@ static NSString *deviceInfo = nil;
     return @"Unknown";
 }
 
-+ (NSString *)sjGetDeviceInfo {
++ (NSString *)getDeviceInfo {
     if (deviceInfo == nil) {
-        deviceInfo = [self getDeviceInfo];
+        deviceInfo = [self private_getDeviceInfo];
     }
     return deviceInfo;
 }
 
 
-+ (NSString *)sjGetDeviceIDFA {
++ (NSString *)getDeviceIDFA {
     NSString *idfa = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
     return idfa;
 }
 
 
-+ (NSString *)sjGetDeviceOSVersion {
++ (NSString *)getDeviceOSVersion {
     NSString *osVersion = [UIDevice currentDevice].systemVersion;
     return osVersion;
 }

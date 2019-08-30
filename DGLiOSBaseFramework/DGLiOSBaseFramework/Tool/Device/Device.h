@@ -17,14 +17,14 @@ NS_ASSUME_NONNULL_BEGIN
  
  @return 设备 ID
  */
-+ (NSString *)sjGetDeviceId;
++ (NSString *)getDeviceId;
 
 /**
  获取设备型号
  
  @return 当前设备型号
  */
-+ (NSString *)sjGetDeviceInfo;
++ (NSString *)getDeviceInfo;
 
 
 /**
@@ -32,14 +32,14 @@ NS_ASSUME_NONNULL_BEGIN
  
  @return 设备广告标识符
  */
-+ (NSString *)sjGetDeviceIDFA;
++ (NSString *)getDeviceIDFA;
 
 /**
  获取设备当前系统版本
  
  @return 设备当前系统版本
  */
-+ (NSString *)sjGetDeviceOSVersion;
++ (NSString *)getDeviceOSVersion;
 
 #pragma mark - 设备权限管理
 

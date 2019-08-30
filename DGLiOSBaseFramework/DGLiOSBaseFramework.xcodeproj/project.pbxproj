@@ -26,10 +26,17 @@
 		839C31F623177EAC0079027E /* ResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C31F423177EAC0079027E /* ResponseModel.m */; };
 		839C31F9231794470079027E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C31F7231794470079027E /* Reachability.m */; };
 		839C31FA231794470079027E /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C31F8231794470079027E /* Reachability.h */; };
-		839C3204231798F80079027E /* NSString+Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C3202231798F80079027E /* NSString+Base.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		839C3205231798F80079027E /* NSString+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C3203231798F80079027E /* NSString+Base.m */; };
 		839C32092317A9370079027E /* Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C32072317A9370079027E /* Device.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		839C320A2317A9370079027E /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C32082317A9370079027E /* Device.m */; };
+		839C33BF2317F1500079027E /* DGLiOSBaseFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 839C33BE2317F1500079027E /* DGLiOSBaseFramework.podspec */; };
+		839C33C32318B9130079027E /* NSString+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C33C12318B9130079027E /* NSString+Base.m */; };
+		839C33C42318B9130079027E /* NSString+Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C33C22318B9130079027E /* NSString+Base.h */; };
+		839C33C82318B9820079027E /* UIFont+Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C33C62318B9820079027E /* UIFont+Font.h */; };
+		839C33C92318B9820079027E /* UIFont+Font.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C33C72318B9820079027E /* UIFont+Font.m */; };
+		839C33CC2318B9A20079027E /* UIColor+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C33CA2318B9A20079027E /* UIColor+Color.h */; };
+		839C33CD2318B9A20079027E /* UIColor+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C33CB2318B9A20079027E /* UIColor+Color.m */; };
+		839C33D02318B9AD0079027E /* UIImage+Image.h in Headers */ = {isa = PBXBuildFile; fileRef = 839C33CE2318B9AD0079027E /* UIImage+Image.h */; };
+		839C33D12318B9AD0079027E /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 839C33CF2318B9AD0079027E /* UIImage+Image.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,11 +64,18 @@
 		839C31F423177EAC0079027E /* ResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseModel.m; sourceTree = "<group>"; };
 		839C31F7231794470079027E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		839C31F8231794470079027E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		839C3202231798F80079027E /* NSString+Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Base.h"; sourceTree = "<group>"; };
-		839C3203231798F80079027E /* NSString+Base.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base.m"; sourceTree = "<group>"; };
 		839C320623179CFF0079027E /* HTTPRequestDefinedHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTPRequestDefinedHeader.h; sourceTree = "<group>"; };
 		839C32072317A9370079027E /* Device.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
 		839C32082317A9370079027E /* Device.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		839C33BE2317F1500079027E /* DGLiOSBaseFramework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DGLiOSBaseFramework.podspec; path = ../DGLiOSBaseFramework.podspec; sourceTree = "<group>"; };
+		839C33C12318B9130079027E /* NSString+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base.m"; sourceTree = "<group>"; };
+		839C33C22318B9130079027E /* NSString+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base.h"; sourceTree = "<group>"; };
+		839C33C62318B9820079027E /* UIFont+Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Font.h"; sourceTree = "<group>"; };
+		839C33C72318B9820079027E /* UIFont+Font.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Font.m"; sourceTree = "<group>"; };
+		839C33CA2318B9A20079027E /* UIColor+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Color.h"; sourceTree = "<group>"; };
+		839C33CB2318B9A20079027E /* UIColor+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Color.m"; sourceTree = "<group>"; };
+		839C33CE2318B9AD0079027E /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		839C33CF2318B9AD0079027E /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +103,7 @@
 		839C31AB2316936C0079027E = {
 			isa = PBXGroup;
 			children = (
+				839C33BE2317F1500079027E /* DGLiOSBaseFramework.podspec */,
 				839C31B72316936C0079027E /* DGLiOSBaseFramework */,
 				839C31B62316936C0079027E /* Products */,
 				C000E5CB58E1993721E23B2E /* Pods */,
@@ -121,33 +136,17 @@
 		839C31C0231696E30079027E /* HTTPRequest */ = {
 			isa = PBXGroup;
 			children = (
+				839C31EF23177E9F0079027E /* RequestModel.h */,
+				839C31F023177E9F0079027E /* RequestModel.m */,
+				839C31F323177EAC0079027E /* ResponseModel.h */,
+				839C31F423177EAC0079027E /* ResponseModel.m */,
 				839C31F8231794470079027E /* Reachability.h */,
 				839C31F7231794470079027E /* Reachability.m */,
-				839C31D023177B2E0079027E /* RequestModel */,
-				839C31D123177B2E0079027E /* ResponseModel */,
 				839C31D823177CAB0079027E /* HTTPRequest.h */,
 				839C31D923177CAB0079027E /* HTTPRequest.m */,
 				839C320623179CFF0079027E /* HTTPRequestDefinedHeader.h */,
 			);
 			path = HTTPRequest;
-			sourceTree = "<group>";
-		};
-		839C31D023177B2E0079027E /* RequestModel */ = {
-			isa = PBXGroup;
-			children = (
-				839C31EF23177E9F0079027E /* RequestModel.h */,
-				839C31F023177E9F0079027E /* RequestModel.m */,
-			);
-			path = RequestModel;
-			sourceTree = "<group>";
-		};
-		839C31D123177B2E0079027E /* ResponseModel */ = {
-			isa = PBXGroup;
-			children = (
-				839C31F323177EAC0079027E /* ResponseModel.h */,
-				839C31F423177EAC0079027E /* ResponseModel.m */,
-			);
-			path = ResponseModel;
 			sourceTree = "<group>";
 		};
 		839C31D223177BDD0079027E /* Base */ = {
@@ -208,7 +207,8 @@
 		839C31FB231798840079027E /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				839C3201231798D90079027E /* NSString */,
+				839C33C52318B9500079027E /* UIKit */,
+				839C33C02318B9130079027E /* Foundation */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -222,13 +222,26 @@
 			path = Device;
 			sourceTree = "<group>";
 		};
-		839C3201231798D90079027E /* NSString */ = {
+		839C33C02318B9130079027E /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				839C3202231798F80079027E /* NSString+Base.h */,
-				839C3203231798F80079027E /* NSString+Base.m */,
+				839C33C12318B9130079027E /* NSString+Base.m */,
+				839C33C22318B9130079027E /* NSString+Base.h */,
 			);
-			path = NSString;
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		839C33C52318B9500079027E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				839C33CA2318B9A20079027E /* UIColor+Color.h */,
+				839C33CB2318B9A20079027E /* UIColor+Color.m */,
+				839C33C62318B9820079027E /* UIFont+Font.h */,
+				839C33C72318B9820079027E /* UIFont+Font.m */,
+				839C33CE2318B9AD0079027E /* UIImage+Image.h */,
+				839C33CF2318B9AD0079027E /* UIImage+Image.m */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		C000E5CB58E1993721E23B2E /* Pods */ = {
@@ -249,9 +262,12 @@
 			files = (
 				839C31FA231794470079027E /* Reachability.h in Headers */,
 				839C31E823177D090079027E /* BaseNavcController.h in Headers */,
+				839C33CC2318B9A20079027E /* UIColor+Color.h in Headers */,
+				839C33D02318B9AD0079027E /* UIImage+Image.h in Headers */,
 				839C31EC23177D2F0079027E /* BaseTabbarController.h in Headers */,
-				839C3204231798F80079027E /* NSString+Base.h in Headers */,
+				839C33C42318B9130079027E /* NSString+Base.h in Headers */,
 				839C32092317A9370079027E /* Device.h in Headers */,
+				839C33C82318B9820079027E /* UIFont+Font.h in Headers */,
 				839C31F523177EAC0079027E /* ResponseModel.h in Headers */,
 				839C31F123177E9F0079027E /* RequestModel.h in Headers */,
 				839C31E023177CCC0079027E /* BaseModel.h in Headers */,
@@ -319,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839C33BF2317F1500079027E /* DGLiOSBaseFramework.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,11 +373,14 @@
 			files = (
 				839C31F623177EAC0079027E /* ResponseModel.m in Sources */,
 				839C31E123177CCC0079027E /* BaseModel.m in Sources */,
+				839C33C92318B9820079027E /* UIFont+Font.m in Sources */,
+				839C33C32318B9130079027E /* NSString+Base.m in Sources */,
 				839C31F9231794470079027E /* Reachability.m in Sources */,
 				839C320A2317A9370079027E /* Device.m in Sources */,
 				839C31F223177E9F0079027E /* RequestModel.m in Sources */,
-				839C3205231798F80079027E /* NSString+Base.m in Sources */,
+				839C33D12318B9AD0079027E /* UIImage+Image.m in Sources */,
 				839C31E523177CE70079027E /* BaseController.m in Sources */,
+				839C33CD2318B9A20079027E /* UIColor+Color.m in Sources */,
 				839C31ED23177D2F0079027E /* BaseTabbarController.m in Sources */,
 				839C31E923177D090079027E /* BaseNavcController.m in Sources */,
 				839C31DB23177CAB0079027E /* HTTPRequest.m in Sources */,
@@ -501,6 +521,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = DGLiOSBaseFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,6 +547,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = DGLiOSBaseFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
