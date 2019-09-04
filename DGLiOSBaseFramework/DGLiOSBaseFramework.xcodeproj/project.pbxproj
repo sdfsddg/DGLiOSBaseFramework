@@ -43,6 +43,8 @@
 		3FA179917B3FBA6E84652296 /* Pods_DGLiOSBaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DGLiOSBaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FF4614B877C43EE3E84F74 /* Pods-DGLiOSBaseFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGLiOSBaseFramework.release.xcconfig"; path = "Target Support Files/Pods-DGLiOSBaseFramework/Pods-DGLiOSBaseFramework.release.xcconfig"; sourceTree = "<group>"; };
 		7173FF57620F0DB914287CF9 /* Pods-DGLiOSBaseFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DGLiOSBaseFramework.debug.xcconfig"; path = "Target Support Files/Pods-DGLiOSBaseFramework/Pods-DGLiOSBaseFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		833F5ED2231F9C0600A2F7AC /* UIConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIConfig.h; sourceTree = "<group>"; };
+		833F5ED3231F9CDE00A2F7AC /* SystemConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemConfig.h; sourceTree = "<group>"; };
 		839C31B52316936C0079027E /* DGLiOSBaseFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DGLiOSBaseFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		839C31B82316936C0079027E /* DGLiOSBaseFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGLiOSBaseFramework.h; sourceTree = "<group>"; };
 		839C31B92316936C0079027E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -162,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				839C31EE23177D8A0079027E /* Configuration.h */,
+				833F5ED2231F9C0600A2F7AC /* UIConfig.h */,
+				833F5ED3231F9CDE00A2F7AC /* SystemConfig.h */,
 			);
 			path = Config;
 			sourceTree = "<group>";
